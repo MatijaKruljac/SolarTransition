@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToViewController2" customModule="SolarTransition_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="closeSolarTransitionButton" destination="BEx-NC-nc1" id="QyI-aA-f8G"/>
+                <outlet property="view" destination="iN0-l3-epB" id="TMu-7e-UqU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEx-NC-nc1">
+                    <rect key="frame" x="147" y="293" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Bln-wt-YXu"/>
+                        <constraint firstAttribute="height" constant="80" id="wiT-qi-L3f"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Close"/>
+                    <connections>
+                        <action selector="closeSolarTransitionButtonPressed:" destination="-1" eventType="touchUpInside" id="pxe-De-9ux"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="example_background" translatesAutoresizingMaskIntoConstraints="NO" id="EEC-HC-kfN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BEx-NC-nc1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3sq-x5-9hy"/>
+                <constraint firstItem="BEx-NC-nc1" firstAttribute="top" secondItem="EEC-HC-kfN" secondAttribute="bottom" constant="91" id="NLv-Bw-kAx"/>
+                <constraint firstItem="EEC-HC-kfN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S1Z-U1-dye"/>
+                <constraint firstItem="EEC-HC-kfN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dpV-8S-cFd"/>
+                <constraint firstItem="EEC-HC-kfN" firstAttribute="centerX" secondItem="BEx-NC-nc1" secondAttribute="centerX" id="fiH-ip-WKC"/>
+                <constraint firstItem="BEx-NC-nc1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="nCu-UG-f48"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="87.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="example_background" width="960" height="540"/>
+    </resources>
+</document>

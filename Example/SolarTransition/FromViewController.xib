@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FromViewController" customModule="SolarTransition_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="startSolarTransitionButton" destination="p8C-Ki-Yxf" id="5nQ-n9-HFZ"/>
+                <outlet property="startSolarTransitionButton2" destination="K4p-sG-gSA" id="LnE-JM-KfG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="HrL-cq-mcQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8C-Ki-Yxf">
+                    <rect key="frame" x="267" y="420" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Jca-nM-gbh"/>
+                        <constraint firstAttribute="height" constant="80" id="wKY-Gt-yDD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Start"/>
+                    <connections>
+                        <action selector="startSolarTransitionButtonPressed:" destination="-1" eventType="touchUpInside" id="NbA-6i-mxo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4p-sG-gSA">
+                    <rect key="frame" x="77" y="152" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="CGy-zZ-yCH"/>
+                        <constraint firstAttribute="width" constant="80" id="m1f-Re-uLW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Start"/>
+                    <connections>
+                        <action selector="startSolarTransitionButtonPressed2:" destination="-1" eventType="touchUpInside" id="NEr-Qa-9xA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="p8C-Ki-Yxf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="126.5" id="5y5-Vn-7wn"/>
+                <constraint firstItem="p8C-Ki-Yxf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="119.5" id="r41-jO-CDa"/>
+                <constraint firstItem="K4p-sG-gSA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="152" id="thJ-Ee-zU1"/>
+                <constraint firstItem="K4p-sG-gSA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="77" id="tpA-1x-7Uk"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

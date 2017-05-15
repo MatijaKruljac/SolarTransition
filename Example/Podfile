@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SolarTransition_Example' do
+  pod 'SolarTransition', :path => '../'
+
+  target 'SolarTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

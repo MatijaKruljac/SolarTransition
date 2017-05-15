@@ -1,0 +1,22 @@
+{
+  "name": "SolarTransition",
+  "version": "0.1.0",
+  "summary": "A short description of SolarTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MatijaKruljac/SolarTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Matija Kruljac": "kruljac.matija@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MatijaKruljac/SolarTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SolarTransition/Classes/**/*"
+}

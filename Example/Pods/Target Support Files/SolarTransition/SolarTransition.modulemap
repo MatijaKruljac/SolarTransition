@@ -1,0 +1,6 @@
+framework module SolarTransition {
+  umbrella header "SolarTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

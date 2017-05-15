@@ -1,0 +1,16 @@
+PODS:
+  - SolarTransition (0.1.0)
+
+DEPENDENCIES:
+  - SolarTransition (from `../`)
+
+EXTERNAL SOURCES:
+  SolarTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SolarTransition: 94337cbc197be93cbc91b52ea9d0036c8d4fb00c
+
+PODFILE CHECKSUM: 1ba4bd331af39a7503c76f1afe334a15ef604164
+
+COCOAPODS: 1.2.0
