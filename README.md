@@ -2,7 +2,6 @@
 
 SolarTransition is a cocoapod for circular animated transition from UIButton which is a square shape with rounded corners by half of its width or height.
 
-[![CI Status](http://img.shields.io/travis/MatijaKruljac/SolarTransition.svg?style=flat)](https://travis-ci.org/Matija Kruljac/SolarTransition)
 [![Version](https://img.shields.io/cocoapods/v/SolarTransition.svg?style=flat)](http://cocoapods.org/pods/SolarTransition)
 [![License](https://img.shields.io/cocoapods/l/SolarTransition.svg?style=flat)](http://cocoapods.org/pods/SolarTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SolarTransition.svg?style=flat)](http://cocoapods.org/pods/SolarTransition)
