@@ -11,6 +11,13 @@ SolarTransition is a cocoapod for circular animated transition from UIButton whi
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+</br>
+<p>
+<p align="center">
+<img src="https://github.com/MatijaKruljac/SolarTransition/blob/master/solartransition.gif?raw=true" >
+</p>
+</br>
+
 ## Requirements
 
 - iOS 8.0+
