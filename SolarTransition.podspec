@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SolarTransition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SolarTransition.'
+  s.summary          = 'Circular animated transition from UIButton.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SolarTransition is a cocoapod for circular animated transition from UIButton which is a square shape with rounded corners by half of its width or height.
                        DESC
 
   s.homepage         = 'https://github.com/MatijaKruljac/SolarTransition'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/MatijaKruljac/SolarTransition/master/solartransition.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Matija Kruljac' => 'kruljac.matija@gmail.com' }
   s.source           = { :git => 'https://github.com/MatijaKruljac/SolarTransition.git', :tag => s.version.to_s }

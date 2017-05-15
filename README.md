@@ -1,5 +1,7 @@
 # SolarTransition
 
+SolarTransition is a cocoapod for circular animated transition from UIButton which is a square shape with rounded corners by half of its width or height.
+
 [![CI Status](http://img.shields.io/travis/Matija Kruljac/SolarTransition.svg?style=flat)](https://travis-ci.org/Matija Kruljac/SolarTransition)
 [![Version](https://img.shields.io/cocoapods/v/SolarTransition.svg?style=flat)](http://cocoapods.org/pods/SolarTransition)
 [![License](https://img.shields.io/cocoapods/l/SolarTransition.svg?style=flat)](http://cocoapods.org/pods/SolarTransition)
@@ -11,12 +13,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.0+
+- Xcode 8
+- Swift 3.0
+
 ## Installation
 
 SolarTransition is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod "SolarTransition"
 ```
 
