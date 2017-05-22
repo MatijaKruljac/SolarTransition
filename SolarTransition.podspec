@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SolarTransition'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Circular animated transition from UIButton.'
 
 # This description is used to generate tags and improve search results.
